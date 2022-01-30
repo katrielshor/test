@@ -1,0 +1,21 @@
+
+#name {
+    margin-left: 60px;
+}
+
+#price {
+    margin-left: 60px;
+}
+
+button {
+    background: rgb(184, 127, 238);
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+
+
+#deletebtn {
+    background: rgb(231, 83, 83);
+  }

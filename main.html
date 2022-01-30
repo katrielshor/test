@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>my shop</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+   
+</head>
+<body>
+    <h1>add product</h1>
+        <form onsubmit="return  false">
+        <label>name</label>
+        <input type="text" id="name">
+        <br> <br>
+        <label>price</label>
+        <input type="number" id="price">
+        <br><br>
+        <select name="select"  id="type" >
+            <option value="Drinks">Drinks</option>
+            <option value="Meat">Meat</option>
+            <option value="Dairy">Dairy</option>
+            <option value="Snacks">Snacks</option>
+            <option value="Basic">Basic</option>
+        </select>
+        <br>
+        <br>
+        <label>link for image</label>
+        <input type="text" id="image">
+        <br><br>
+        <button onclick="add()">add product</button>
+    </form>
+    <br>
+    <hr>
+
+
+    <table>
+        <tr>
+            <th>name</th>
+            <th>price</th>
+            <th>type</th>
+            <th>image</th>
+            <th>actions</th>
+        </tr>
+        <tbody></tbody>
+    </table>
+</body>
+<script src='main.js'></script>
+</html>
